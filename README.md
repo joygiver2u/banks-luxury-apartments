@@ -64,6 +64,9 @@ These areas were outside the scope of the frontend implementation.
 Some visual differences may also remain compared with the original website due to differences in available assets, fonts, media and implementation constraints.
 
 ## Running the Project Locally
+git clone ...
+npm install
+npm run dev
 
 ### 1. Clone the repository
 
