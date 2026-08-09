@@ -24,16 +24,7 @@ const MobileMenu = () => {
             <select
                 defaultValue="NGN"
                 aria-label="Select currency"
-                className="
-                h-10 
-                cursor-pointer 
-                border 
-                border-[#eadfd9] 
-                bg-white 
-                px-2 
-                text-sm 
-                text-black 
-                outline-none"
+                className="h-10 cursor-pointer  borderborder-[#eadfd9] bg-white px-2 text-sm text-black outline-none"
             >
                 <option value="NGN">NGN</option>
                 <option value="USD">USD</option>
@@ -42,16 +33,7 @@ const MobileMenu = () => {
                 {/* Log In */}
             <Link
                 href="/login"
-                className="
-                whitespace-nowrap 
-                border 
-                border-black 
-                text-sm 
-                text-black 
-                px-3 
-                py-2 
-                transition-colors 
-                hover:text-[#f26b45]"
+                className="whitespace-nowrap border border-black text-sm text-black px-3 py-2 transition-colors hover:text-[#f26b45]"
             >
                 Log In
             </Link>
@@ -62,15 +44,7 @@ const MobileMenu = () => {
             onClick={() => setIsOpen((current) => !current)}
             aria-label={isOpen ? "Close menu" : "Open menu"}
             aria-expanded={isOpen}
-            className="
-            flex 
-            h-10 
-            w-10 
-            items-center 
-            justify-center 
-            text-black 
-            transition-colors 
-            hover:text-[#f26b45]"
+            className="flex h-10 w-10 items-center justify-center text-black transition-colors hover:text-[#f26b45]"
             >
             {isOpen ? (
                 <X
@@ -91,17 +65,7 @@ const MobileMenu = () => {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="
-        absolute 
-        left-0 
-        right-0 
-        top-full 
-        z-50 
-        border-t 
-        border-gray-200 
-        bg-white 
-        px-6 py-6 
-        shadow-lg"
+        <div className="absolute left-0 right-0 top-full z-50 border-t border-gray-200 bg-white px-6 py-6 shadow-lg"
         >
           <nav className="flex flex-col items-center gap-5">
 

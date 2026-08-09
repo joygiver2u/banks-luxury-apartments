@@ -63,9 +63,21 @@ These areas were outside the scope of the frontend implementation.
 
 Some visual differences may also remain compared with the original website due to differences in available assets, fonts, media and implementation constraints.
 
+## Deployment
+
+The project is deployed using Netlify.
+
+**Live Website:**  
+https://banks-luxury-apartments.netlify.app
+
+## Repository
+
+**GitHub:**  
+https://github.com/joygiver2u/banks-luxury-apartments
+
 ## Running the Project Locally
 
 ### 1. Clone the repository
 
 ```bash
-git remote add origin https://github.com/joygiver2u/banks-luxury-apartments.git
+git clone https://github.com/joygiver2u/banks-luxury-apartments.git
