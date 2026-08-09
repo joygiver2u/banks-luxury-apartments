@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Banks Luxury Serviced Apartments
 
-## Getting Started
+A responsive luxury serviced apartment website built with Next.js, React, TypeScript and Tailwind CSS.
 
-First, run the development server:
+The project recreates the core browsing and apartment discovery experience of a modern serviced apartment booking website, including apartment locations, image galleries, search functionality and responsive navigation.
+
+## Features
+
+- Responsive desktop and mobile navigation
+- Hero section with background media
+- Quick apartment search
+- Location filtering
+- Check-in and check-out date selection
+- Minimum three-night stay validation
+- Apartment image galleries
+- Apartment image carousel
+- Apartment details
+- Responsive layouts for desktop, tablet and mobile
+- Reusable React components
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- Next.js Image component
+
+## Styling Choices
+
+Tailwind CSS was used for the interface styling to keep the design responsive and component-based.
+
+The layout uses responsive Tailwind breakpoints to provide different experiences across desktop, tablet and mobile screen sizes.
+
+The project uses reusable React components for areas such as the navigation, mobile menu, hero section, search form and apartment galleries.
+
+## Search Functionality
+
+The search form supports:
+
+- Location selection
+- Check-in date
+- Check-out date
+- Date validation
+- Check-out date validation
+- Minimum three-night stay
+- Navigation to the locations page with search information
+
+## Known Gaps
+
+This project focuses primarily on the frontend experience.
+
+The following functionality is not connected to a production backend:
+
+- Real-time apartment availability
+- Online payment processing
+- User account authentication
+- Database-backed reservations
+- Production booking management
+
+These areas were outside the scope of the frontend implementation.
+
+Some visual differences may also remain compared with the original website due to differences in available assets, fonts, media and implementation constraints.
+
+## Running the Project Locally
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git remote add origin https://github.com/joygiver2u/banks-luxury-apartments.git
