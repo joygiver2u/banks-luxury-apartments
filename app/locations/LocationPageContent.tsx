@@ -17,11 +17,7 @@ export default function LocationPageContent() {
   const checkInDate = searchParams.get("checkIn");
   const checkOutDate = searchParams.get("checkOut");
 
-  const validLocations = [
-    "Lekki",
-    "Ikoyi",
-    "Ikeja",
-  ];
+  const validLocations = ["Lekki", "Ikoyi", "Ikeja"];
 
   const initialLocation =
     locationFromSearch &&
@@ -29,8 +25,7 @@ export default function LocationPageContent() {
       ? locationFromSearch
       : "All Locations";
 
-  const [activeFilter, setActiveFilter] =
-    useState(initialLocation);
+  const [activeFilter, setActiveFilter] = useState(initialLocation);
 
   /*
    * Update the active location when a new search
@@ -46,8 +41,7 @@ export default function LocationPageContent() {
   }, [locationFromSearch]);
 
   /*
-   * The selected search dates are now available here.
-   *
+   * The selected search dates are available here.
    * They can later be passed to your existing
    * ApartmentSearchModal / apartment components
    * when needed.
@@ -59,12 +53,11 @@ export default function LocationPageContent() {
   });
 
   return (
-    <main>
-      {/* Location Search / Filter */}
-        <LocationSearch
-            activeFilter={activeFilter}
-            onFilterChange={setActiveFilter}
-        />
+    <section>
+      <LocationSearch
+        activeFilter={activeFilter}
+        onFilterChange={setActiveFilter}
+      />
 
       {/* Featured Properties */}
       {activeFilter === "All Locations" && (
@@ -77,17 +70,11 @@ export default function LocationPageContent() {
         </>
       )}
 
-      {activeFilter === "Ikoyi" && (
-        <FeaturedTwo />
-      )}
+      {activeFilter === "Ikoyi" && <FeaturedTwo />}
 
-      {activeFilter === "Lekki" && (
-        <FeaturedThree />
-      )}
+      {activeFilter === "Lekki" && <FeaturedThree />}
 
-      {activeFilter === "Ikeja" && (
-        <FeaturedFive />
-      )}
-    </main>
+      {activeFilter === "Ikeja" && <FeaturedFive />}
+    </section>
   );
 }
