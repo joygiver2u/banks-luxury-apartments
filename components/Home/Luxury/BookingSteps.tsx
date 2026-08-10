@@ -59,19 +59,7 @@ const BookingSteps = () => {
         lg:py-24
       "
     >
-      <div
-        className="
-          mx-auto
-          grid
-          max-w-7xl
-          grid-cols-1
-          items-start
-          gap-14
-          lg:grid-cols-2
-          lg:gap-16
-          xl:gap-20
-        "
-      >
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-14 lg:grid-cols-2 lg:gap-16 xl:gap-20">
         {/* =====================================================
             LEFT CONTENT
         ====================================================== */}

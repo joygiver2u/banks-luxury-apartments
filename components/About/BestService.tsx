@@ -7,41 +7,11 @@ const BestService = () => {
       aria-labelledby="best-service-heading"
       className="w-full bg-white"
     >
-      <div
-        className="
-            mx-auto
-            grid
-            max-w-7xl
-            grid-cols-1
-            items-center
-            gap-12
-            px-6
-            pt-20
-            pb-12
-            md:px-8
-            md:pt-24
-            md:pb-14
-            lg:grid-cols-2
-            lg:gap-16
-            lg:px-12
-            lg:pt-28
-            lg:pb-16
-        "
-      >
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 pt-20 pb-12 md:px-8 md:pt-24 md:pb-14 lg:grid-cols-2 lg:gap-16 lg:px-12 lg:pt-28 lg:pb-16">
         {/* =====================================================
             IMAGE COLLAGE
             ===================================================== */}
-        <div
-          className="
-            relative
-            mx-auto
-            h-[480px]
-            w-full
-            max-w-[560px]
-            sm:h-[550px]
-            lg:h-[580px]
-          "
-        >
+        <div className="relative mx-auto h-[480px] w-full max-w-[560px] sm:h-[550px] lg:h-[580px]">
           {/* Decorative orange block */}
           <div
             aria-hidden="true"

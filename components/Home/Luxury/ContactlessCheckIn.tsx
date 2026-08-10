@@ -39,18 +39,7 @@ const ContactlessCheckIn = () => {
         lg:py-24
       "
     >
-      <div
-        className="
-            mx-auto
-            grid
-            max-w-7xl
-            grid-cols-1
-            gap-12
-            lg:grid-cols-[32%_68%]
-            lg:gap-8
-            xl:gap-12
-        "
-      >
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 lg:grid-cols-[32%_68%] lg:gap-8 xl:gap-12">
         {/* =====================================================
             LEFT COLUMN — KEYPAD
         ====================================================== */}

@@ -15,17 +15,7 @@ const LuxuryExperience = () => {
         lg:py-24
       "
     >
-      <div
-        className="
-          mx-auto
-          grid
-          max-w-7xl
-          grid-cols-1
-          gap-10
-          lg:grid-cols-2
-          lg:gap-16
-        "
-      >
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16">
         {/* FEATURE IMAGE */}
         <div className="relative w-full overflow-hidden">
           <Image

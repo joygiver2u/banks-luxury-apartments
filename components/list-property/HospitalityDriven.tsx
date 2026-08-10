@@ -6,25 +6,7 @@ const HospitalityDriven = () => {
       aria-labelledby="hospitality-heading"
       className="w-full bg-white"
     >
-      <div
-        className="
-          mx-auto
-          grid
-          w-full
-          max-w-7xl
-          grid-cols-1
-          items-center
-          gap-12
-          px-6
-          py-20
-          md:px-8
-          md:py-24
-          lg:grid-cols-2
-          lg:gap-16
-          lg:px-12
-          lg:py-28
-        "
-      >
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-6 py-20 md:px-8 md:py-24 lg:grid-cols-2 lg:gap-16 lg:px-12 lg:py-28">
         {/* =====================================================
             LEFT — IMAGE
             ===================================================== */}

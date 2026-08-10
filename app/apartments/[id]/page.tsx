@@ -123,28 +123,11 @@ export default async function ApartmentPage({
             =================================================== */}
 
         <div className="mb-8">
-          <p
-            className="
-              text-sm
-              font-medium
-              uppercase
-              tracking-wider
-              text-[#F75C1E]
-            "
-          >
+          <p className="text-sm font-medium uppercase tracking-wider text-[#F75C1E]">
             {apartment.location}
           </p>
 
-          <h1
-            className="
-              mt-2
-              text-3xl
-              font-bold
-              tracking-tight
-              text-gray-900
-              sm:text-4xl
-            "
-          >
+          <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             {apartment.name}
           </h1>
         </div>
@@ -153,15 +136,7 @@ export default async function ApartmentPage({
             GALLERY + APARTMENT INFORMATION
             =================================================== */}
 
-        <div
-          className="
-            grid
-            grid-cols-1
-            gap-10
-            lg:grid-cols-[65%_35%]
-            lg:gap-12
-          "
-        >
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[65%_35%] lg:gap-12">
 
           {/* =================================================
               LEFT — IMAGE GALLERY
@@ -193,25 +168,12 @@ export default async function ApartmentPage({
             </h2>
 
             {/* Location */}
-            <p
-              className="
-                mt-2
-                text-base
-                text-gray-500
-              "
-            >
+            <p className="mt-2 text-base text-gray-500">
               {apartment.location}
             </p>
 
             {/* Description */}
-            <p
-              className="
-                mt-6
-                text-base
-                leading-7
-                text-gray-600
-              "
-            >
+            <p className="mt-6 text-base leading-7 text-gray-600">
               {apartment.description}
             </p>
 
@@ -220,17 +182,7 @@ export default async function ApartmentPage({
 
               {/* Bedrooms */}
               <div className="flex items-center gap-3">
-                <div
-                  className="
-                    flex
-                    h-10
-                    w-10
-                    items-center
-                    justify-center
-                    bg-[#F75C1E]
-                    text-white
-                  "
-                >
+                <div className="flex h-10 w-10 items-center justify-center bg-[#F75C1E] text-white">
                   🛏
                 </div>
 
@@ -247,17 +199,7 @@ export default async function ApartmentPage({
 
               {/* Price */}
               <div className="flex items-center gap-3">
-                <div
-                  className="
-                    flex
-                    h-10
-                    w-10
-                    items-center
-                    justify-center
-                    bg-[#F75C1E]
-                    text-white
-                  "
-                >
+                <div className="flex h-10 w-10 items-center justify-center bg-[#F75C1E] text-white">
                   $
                 </div>
 
@@ -274,17 +216,7 @@ export default async function ApartmentPage({
 
               {/* Minimum Stay */}
               <div className="flex items-center gap-3">
-                <div
-                  className="
-                    flex
-                    h-10
-                    w-10
-                    items-center
-                    justify-center
-                    bg-[#F75C1E]
-                    text-white
-                  "
-                >
+                <div className="flex h-10 w-10 items-center justify-center bg-[#F75C1E] text-white">
                   ◷
                 </div>
 
@@ -308,23 +240,7 @@ export default async function ApartmentPage({
             <div className="mt-10">
 
               <Link
-                href="/booking"
-                className="
-                  inline-flex
-                  items-center
-                  justify-center
-                  bg-[#F75C1E]
-                  px-7
-                  py-3.5
-                  text-sm
-                  font-semibold
-                  text-white
-                  transition-all
-                  duration-300
-                  hover:bg-[#df4f18]
-                  hover:shadow-lg
-                "
-              >
+                href="/booking" className="inline-flex items-center justify-center bg-[#F75C1E] px-7 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-[#df4f18] hover:shadow-lg">
                 Book Apartment
               </Link>
 
@@ -336,29 +252,13 @@ export default async function ApartmentPage({
 
             <div className="mt-10">
 
-              <h3
-                className="
-                  text-lg
-                  font-medium
-                  text-gray-900
-                "
-              >
+              <h3 className="text-lg font-medium text-gray-900">
                 Contact
               </h3>
 
               <a
                 href="tel:+2347048248091"
-                className="
-                  mt-3
-                  inline-flex
-                  bg-[#F75C1E]/10
-                  px-4
-                  py-2.5
-                  text-sm
-                  text-[#F75C1E]
-                  transition-colors
-                  hover:bg-[#F75C1E]/20
-                "
+                className="mt-3 inline-flex bg-[#F75C1E]/10 px-4 py-2.5 text-sm text-[#F75C1E] transition-colors hover:bg-[#F75C1E]/20"
               >
                 +234 704 824 8091
               </a>

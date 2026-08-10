@@ -38,11 +38,10 @@ const NavLinks = () => {
           <Link
             key={link.href}
             href={link.href}
-            className={`whitespace-nowrap text-[17px] font-normal transition-colors duration-200 ${
-              isActive
-                ? "text-[#f26b45]"
-                : "text-black"
-            }`}
+            className={`
+              whitespace-nowrap text-[17px] font-normal transition-colors duration-200 
+              ${isActive ? "text-[#f26b45]" : "text-black"}
+            `}
           >
             {link.label}
           </Link>

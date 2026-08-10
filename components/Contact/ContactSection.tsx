@@ -184,23 +184,7 @@ const ContactSection = () => {
           MAIN CONTENT
           ===================================================== */}
 
-      <div
-        className="
-          relative
-          z-10
-          mx-auto
-          w-full
-          max-w-7xl
-          px-6
-          py-20
-
-          sm:px-8
-          sm:py-24
-
-          lg:px-12
-          lg:py-28
-        "
-      >
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-20 sm:px-8 sm:py-24 lg:px-12 lg:py-28">
         {/* ===================================================
             HEADING
             =================================================== */}

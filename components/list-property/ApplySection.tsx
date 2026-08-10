@@ -145,36 +145,8 @@ const ApplySection = () => {
         />
 
         {/* Heading */}
-        <div
-          className="
-            relative
-            z-10
-            mx-auto
-            flex
-            h-full
-            w-full
-            max-w-7xl
-            items-start
-            px-6
-            pt-14
-            md:px-8
-            md:pt-16
-            lg:px-12
-            lg:pt-20
-          "
-        >
-          <h2
-            id="apply-heading"
-            className="
-              text-3xl
-              font-light
-              leading-tight
-              tracking-tight
-              text-white
-              sm:text-4xl
-              lg:text-5xl
-            "
-          >
+        <div className="relative z-10 mx-auto flex h-full w-full max-w-7xl items-start px-6 pt-14 md:px-8 md:pt-16 lg:px-12 lg:pt-20">
+          <h2 id="apply-heading" className="text-3xl font-light leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
             Apply Here
           </h2>
         </div>
@@ -183,37 +155,8 @@ const ApplySection = () => {
       {/* =====================================================
           APPLICATION CARD
           ===================================================== */}
-      <div
-        className="
-          relative
-          z-20
-          mx-auto
-          -mt-92
-          w-full
-          max-w-7xl
-          px-4
-          pb-20
-          sm:-mt-24
-          sm:px-6
-          sm:pb-24
-          md:px-8
-          lg:-mt-120
-          lg:px-12
-          lg:pb-28
-        "
-      >
-        <div
-          className="
-            w-full
-            max-w-260
-            bg-white
-            p-6
-            shadow-2xl
-            sm:p-8
-            md:p-10
-            lg:p-12
-          "
-        >
+      <div className="relative z-20 mx-auto -mt-92 w-full max-w-7xl px-4 pb-20 sm:-mt-24 sm:px-6 sm:pb-24 md:px-8 lg:-mt-120 lg:px-12 lg:pb-28">
+        <div className="w-full max-w-260 bg-white p-6 shadow-2xl sm:p-8 md:p-10 lg:p-12">
           {/* =================================================
               FORM
               ================================================= */}

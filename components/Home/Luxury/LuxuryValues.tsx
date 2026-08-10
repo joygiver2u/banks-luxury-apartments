@@ -34,18 +34,7 @@ const LuxuryValues = () => {
         Our Values
       </h2>
 
-      <div
-        className="
-          mx-auto
-          grid
-          max-w-7xl
-          grid-cols-1
-          gap-14
-          md:grid-cols-3
-          md:gap-10
-          lg:gap-16
-        "
-      >
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-14 md:grid-cols-3 md:gap-10 lg:gap-16">
         {values.map((value) => (
           <article key={value.title}>
             <h3

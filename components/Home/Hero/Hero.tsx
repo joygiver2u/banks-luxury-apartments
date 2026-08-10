@@ -34,36 +34,14 @@ const Hero = () => {
           preload="metadata"
           aria-hidden="true"
         >
-          <source
-            src="/videos/hero.mp4"
-            type="video/mp4"
-          />
+          <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
 
         {/* Dark Overlay */}
-        <div
-          className="absolute inset-0 bg-black/35"
-          aria-hidden="true"
-        />
+        <div className="absolute inset-0 bg-black/35" aria-hidden="true" />
 
         {/* Hero Content */}
-        <div
-          className="
-            relative
-            z-10
-            mx-auto
-            flex
-            w-full
-            max-w-4xl
-            flex-col
-            items-center
-            justify-center
-            px-6
-            text-center
-            text-white
-            sm:px-8
-          "
-        >
+        <div className="relative z-10  mx-auto flex w-full max-w-4xl flex-col items-center justify-center px-6 text-center text-white sm:px-8">
           <h1
             id="hero-heading"
             className="
@@ -78,9 +56,7 @@ const Hero = () => {
           >
             <span className="block">Banks Luxury</span>
 
-            <span className="mt-2 block">
-              Serviced Apartments
-            </span>
+            <span className="mt-2 block">Serviced Apartments</span>
           </h1>
 
           <p
@@ -95,14 +71,12 @@ const Hero = () => {
               lg:text-lg
             "
           >
-            Banks L.A. offers a selection of spacious and convenient
-            properties which are perfect for occupants seeking the best
-            living conditions in the city.
+            Banks L.A. offers a selection of spacious and convenient properties
+            which are perfect for occupants seeking the best living conditions
+            in the city.
           </p>
         </div>
       </div>
-
-      {/* Quick Search */}
       <QuickSearch />
     </section>
   );

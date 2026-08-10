@@ -17,18 +17,7 @@ const ListYourProperty = () => {
         lg:py-32
       "
     >
-      <div
-        className="
-          mx-auto
-          grid
-          max-w-7xl
-          grid-cols-1
-          gap-16
-          lg:grid-cols-[0.9fr_1.1fr]
-          lg:items-start
-          lg:gap-12
-        "
-      >
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-12">
         {/* =========================================
             IMAGE COLLAGE
             Mobile: first

@@ -48,7 +48,7 @@ const property: Property = {
 
 const FeaturedFive = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAnimating, setIsAnimating] = useState(false);
+  // const [isAnimating, setIsAnimating] = useState(false);
 
   const totalImages = property.images.length;
 
@@ -70,38 +70,12 @@ const FeaturedFive = () => {
       aria-labelledby="featured-property-heading"
       className="w-full bg-white"
     >
-      <div
-        className="
-          mx-auto
-          grid
-          w-full
-          max-w-7xl
-          grid-cols-1
-          gap-12
-          px-6
-          py-12
-          md:px-8
-          md:py-16
-          lg:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]
-          lg:gap-16
-          lg:px-12
-          lg:pt-8
-          lg:pb-24
-        "
-      >
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-12 px-6 py-12 md:px-8 md:py-16 lg:grid-cols-[minmax(0,45fr)_minmax(0,55fr)] lg:gap-16 lg:px-12 lg:pt-8 lg:pb-24">
         {/* =====================================================
             IMAGE SLIDER
             ===================================================== */}
 
-        <div
-          className="
-            order-1
-            min-w-0
-            flex
-            flex-col
-            lg:order-2
-          "
-        >
+        <div className="order-1 min-w-0 flex flex-col lg:order-2">
           {/* Image Slider */}
             <div className="w-full min-w-0">
                 <div className="relative flex h-[540px] w-full items-center justify-center overflow-hidden bg-[#F75C1E]/10 sm:h-[600px] lg:h-[640px]">
@@ -379,7 +353,7 @@ const FeaturedFive = () => {
           SLIDER ANIMATION
           ======================================================= */}
 
-      <style jsx>{`
+      {/* <style jsx>{`
         @keyframes slideInRight {
           from {
             opacity: 0;
@@ -391,10 +365,8 @@ const FeaturedFive = () => {
             transform: translateX(0);
           }
         }
-      `}</style>
-    </section>
-
-    
+      `}</style> */}
+    </section> 
   );
 };
 

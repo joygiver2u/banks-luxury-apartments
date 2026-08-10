@@ -46,7 +46,7 @@ const property: Property = {
 
 const FeaturedTwo = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAnimating, setIsAnimating] = useState(false);
+  // const [isAnimating, setIsAnimating] = useState(false);
 
   const totalImages = property.images.length;
   /*
@@ -67,25 +67,7 @@ const FeaturedTwo = () => {
       aria-labelledby="featured-property-heading"
       className="w-full bg-white"
     >
-      <div
-        className="
-          mx-auto
-          grid
-          w-full
-          max-w-7xl
-          grid-cols-1
-          gap-12
-          px-6
-          py-12
-          md:px-8
-          md:py-16
-          lg:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]
-          lg:gap-16
-          lg:px-12
-          lg:pt-8
-          lg:pb-8
-        "
-      >
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-12 px-6 py-12 md:px-8 md:py-16 lg:grid-cols-[minmax(0,45fr)_minmax(0,55fr)] lg:gap-16 lg:px-12 lg:pt-8 lg:pb-8">
         {/* =====================================================
             IMAGE SLIDER
             ===================================================== */}
@@ -94,7 +76,7 @@ const FeaturedTwo = () => {
           {/* Image Slider */}
           <div className="w-full min-w-0">
             <div
-              className="relative flex h-135 w-full items-center justify-center overflow-hidden bg-[#F75C1E]/10 sm:h-[600px] lg:h-[640px] "
+              className="relative flex h-135 w-full items-center justify-center overflow-hidden bg-[#F75C1E]/10 sm:h-[600px] lg:h-[640px]"
             >
               {/* Background */}
               <div
@@ -299,18 +281,12 @@ const FeaturedTwo = () => {
                 strokeWidth={1.2}
               />
 
-              <p
-                  className="
-                    
-                    text-md
-                    text-black
-                  "
-                >
+              <p className="text-md text-black">
                   {property.apartments}
-                </p>
-                <p className="text-md text-black">
+              </p>
+              <p className="text-md text-black">
                   Apartment
-                </p>
+              </p>
               
             </div>
           </div>
@@ -386,7 +362,7 @@ const FeaturedTwo = () => {
       </div>
 
       {/* Slider Animation */}
-      <style jsx>{`
+      {/* <style jsx>{`
         @keyframes slideInRight {
           from {
             opacity: 0;
@@ -398,7 +374,7 @@ const FeaturedTwo = () => {
             transform: translateX(0);
           }
         }
-      `}</style>
+      `}</style> */}
     </section>
   );
 };

@@ -46,20 +46,20 @@ const property: Property = {
 
 const FeaturedFour = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isAnimating, setIsAnimating] = useState(false);
+  // const [isAnimating, setIsAnimating] = useState(false);
 
   const totalImages = property.images.length;
 
-  const goToSlide = (index: number) => {
-    if (isAnimating || index === currentIndex) return;
+  // const goToSlide = (index: number) => {
+  //   if (isAnimating || index === currentIndex) return;
 
-    setIsAnimating(true);
-    setCurrentIndex(index);
+  //   setIsAnimating(true);
+  //   setCurrentIndex(index);
 
-    window.setTimeout(() => {
-      setIsAnimating(false);
-    }, 600);
-  };
+  //   window.setTimeout(() => {
+  //     setIsAnimating(false);
+  //   }, 600);
+  // };
 
   /*
    * Automatically change image every 5 seconds.
@@ -79,25 +79,7 @@ const FeaturedFour = () => {
       aria-labelledby="featured-property-heading"
       className="w-full bg-white"
     >
-      <div
-        className="
-          mx-auto
-          grid
-          w-full
-          max-w-7xl
-          grid-cols-1
-          gap-12
-          px-6
-          py-12
-          md:px-8
-          md:py-16
-          lg:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]
-          lg:gap-16
-          lg:px-12
-          lg:pt-8
-          lg:pb-8
-        "
-      >
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-12 px-6 py-12 md:px-8 md:py-16 lg:grid-cols-[minmax(0,45fr)_minmax(0,55fr)] lg:gap-16 lg:px-12 lg:pt-8 lg:pb-8">
         {/* =====================================================
             IMAGE SLIDER
             ===================================================== */}
@@ -191,7 +173,7 @@ const FeaturedFour = () => {
               mt-6
               space-y-4
               text-sm
-              capitalze
+              capitalize
               leading-7
               text-gray-500
               sm:text-base
@@ -324,13 +306,13 @@ const FeaturedFour = () => {
               <p
                 className="
                   mt-1
-                  text-md
+                  text-base
                   text-black
                 "
               >
                 {property.apartments}
               </p>
-              <p className="text-md text-black">
+              <p className="text-base text-black">
                     Apartments
               </p>
             </div>
@@ -407,7 +389,7 @@ const FeaturedFour = () => {
       </div>
 
       {/* Slider Animation */}
-      <style jsx>{`
+      {/* <style jsx>{`
         @keyframes slideInRight {
           from {
             opacity: 0;
@@ -419,7 +401,7 @@ const FeaturedFour = () => {
             transform: translateX(0);
           }
         }
-      `}</style>
+      `}</style> */}
     </section>
   );
 };
